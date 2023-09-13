@@ -50,7 +50,8 @@ class Navbar extends Component{
                                 {items.map(item => <li key={item.id}><a href="">{item.menu}</a></li>)}
                             </ul> */}
                             <ul className="flex-container">
-                                {/* <li><NavLink to="/details">Page Details</NavLink></li> */}
+                                <li><NavLink to="/login">Login</NavLink></li>
+                                <li><NavLink to="/details">Page Details Demo</NavLink></li>
                                 <li><NavLink to="/bangladesh">বাংলাদেশ</NavLink></li>
                                 <li><NavLink to="/politics">রাজনীতি</NavLink></li>
                                 <li><NavLink to="/economics">অর্থনীতি</NavLink></li>

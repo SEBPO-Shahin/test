@@ -21,7 +21,7 @@ export default function Politics(){
                 <div className='breadcrumb'>
                     <ul>
                         <li><Link to="/">প্রচ্ছদ&#129170;</Link></li>
-                        <li><Link to="/bangladesh">বাংলাদেশ&#129170;</Link></li>
+                        <li><Link to="/bangladesh">রাজনীতি&#129170;</Link></li>
                     </ul>
                 </div>
                 <div className='page-details page-list'>

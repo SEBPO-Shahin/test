@@ -21,13 +21,12 @@ export default function Economics(){
                 <div className='breadcrumb'>
                     <ul>
                         <li><Link to="/">প্রচ্ছদ&#129170;</Link></li>
-                        <li><Link to="/bangladesh">বাংলাদেশ&#129170;</Link></li>
+                        <li><Link to="/bangladesh">অর্থনীতি&#129170;</Link></li>
                     </ul>
                 </div>
                 <div className='page-details page-list'>
                     <div className='news-details category-section'>
                         <div className='page-list__featureNews flex-box category-section__content'>
-                            
                             <DoubleFeature headline="অর্থনীতি" />
                             <div className='page-list__featureNews--col'>
                                 
