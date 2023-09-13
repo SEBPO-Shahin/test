@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.338099dd.css",
-    "main.js": "/test/static/js/main.be8907e0.js",
-    "static/js/787.8dcf6e73.chunk.js": "/test/static/js/787.8dcf6e73.chunk.js",
+    "main.css": "/test/static/css/main.e45c31b2.css",
+    "main.js": "/test/static/js/main.ff85c557.js",
+    "static/js/787.a86f3764.chunk.js": "/test/static/js/787.a86f3764.chunk.js",
     "static/media/stroller2.gif": "/test/static/media/stroller2.94940661890490c34fa2.gif",
     "static/media/news-img1.jpg": "/test/static/media/news-img1.15afbd39493ea05cce91.jpg",
     "static/media/43XX_BIAX_1HPGMIAA1_970x250_US_ENG_01.jpg": "/test/static/media/43XX_BIAX_1HPGMIAA1_970x250_US_ENG_01.336d848a7db2c68873c7.jpg",
@@ -23,12 +23,12 @@
     "static/media/48_HPK_T6768_HP-LJ400_01_160x400.gif": "/test/static/media/48_HPK_T6768_HP-LJ400_01_160x400.03336d014746b0c58ef5.gif",
     "static/media/ajker-arban-1.png": "/test/static/media/ajker-arban-1.624339cafbfc80f8b107.png",
     "index.html": "/test/index.html",
-    "main.338099dd.css.map": "/test/static/css/main.338099dd.css.map",
-    "main.be8907e0.js.map": "/test/static/js/main.be8907e0.js.map",
-    "787.8dcf6e73.chunk.js.map": "/test/static/js/787.8dcf6e73.chunk.js.map"
+    "main.e45c31b2.css.map": "/test/static/css/main.e45c31b2.css.map",
+    "main.ff85c557.js.map": "/test/static/js/main.ff85c557.js.map",
+    "787.a86f3764.chunk.js.map": "/test/static/js/787.a86f3764.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.338099dd.css",
-    "static/js/main.be8907e0.js"
+    "static/css/main.e45c31b2.css",
+    "static/js/main.ff85c557.js"
   ]
 }
