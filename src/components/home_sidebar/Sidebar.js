@@ -1,4 +1,5 @@
-import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from 'react';
 import ThumbnailList from './../home_category/Thumbnail';
 import SingleFeature from './../home_category/SingleFeature';
 // import DoubleFeature from './../home_category/DoubleFeature';
@@ -29,7 +30,7 @@ const Sidebar = () => {
                             </Tabs>
                         </div>
                         <div className='sidebar-videos'>
-                            <iframe width="683" height="280" src="https://www.youtube.com/embed/EpLX09EwhcY" title="10 Creative Commercial Ad 2022।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="683" height="280" src="https://www.youtube.com/embed/EpLX09EwhcY" title="10 Creative Commercial Ad 2022।" frameBorder="0" allowFullScreen="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                         </div>
                         
                     </div>

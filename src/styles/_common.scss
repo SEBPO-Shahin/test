@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 
-ul{
+.main-wrapper ul{
     margin : 0;
     padding : 0;
     li{
@@ -17,7 +17,7 @@ ul{
     }
 }
 
-a{
+.main-wrapper a{
     text-decoration: none !important;
     color : $black;
     display: block;
@@ -27,7 +27,7 @@ a{
     }
 }
 
-img{
+.main-wrapper img{
     width: 100%;
 }
 
@@ -43,6 +43,14 @@ img{
 
 .mobile-hide{
     display : block;
+}
+
+.hide-content{
+    display: none;
+}
+
+.show-content{
+    display: block;
 }
 
 .flex-container{
