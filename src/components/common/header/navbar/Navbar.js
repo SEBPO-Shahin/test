@@ -1,27 +1,11 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../../../assets/images/ajker-arban-1.png';
-import Details from '../../../pages/Details';
-import Bangladesh from '../../../pages/Bangladesh';
 
 
 class Navbar extends Component{
 
     state = {
-        items: [
-        {id: 1, menu: 'বাংলাদেশ'},
-        {id: 2, menu: 'রাজনীতি'},
-        {id: 3, menu: 'অর্থনীতি'},
-        {id: 4, menu: 'আন্তর্জাতিক'},
-        {id: 5, menu: 'খেলা'},
-        {id: 6, menu: 'বিনোদন'},
-        {id: 7, menu: 'স্বাস্থ্য'},
-        {id: 8, menu: 'শিক্ষাঙ্গন'},
-        {id: 9, menu: 'আবহাওয়া'},
-        {id: 10, menu: 'জীবনযাপন'},
-        {id: 11, menu: 'সম্পাদকীয়'},
-        {id: 12, menu: 'অন্যান্য'}
-        ],
         showNavigation : false,
     }
 

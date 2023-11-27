@@ -24,7 +24,6 @@
 
 // Tab buttons
 .bulletins{
-    padding: 30px 0;
     .nav-tabs{
         width: 100%;
         display: flex;
@@ -39,7 +38,7 @@
         }
         .nav-link{
             color: $white;
-            background: $light-blue;
+            background: $default2;
             width: 100%;
             padding: 10px;
             font-size: 16px;

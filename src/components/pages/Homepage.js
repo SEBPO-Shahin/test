@@ -37,7 +37,7 @@ function Homepage(){
                             SingleFeatureTitle="বিশ্বে করোনায় মৃত্যু ১৬ লাখ ৬০ হাজার ছাড়িয়েছে"
                             SingleFeatureDescription="বিশ্বজুড়ে করোনাভাইরাসে আক্রান্তের সংখ্যা ৭ কোটি ৪৮ লাখ ছাড়িয়েছে। আর মৃতের সংখ্যা ১৬ লাখ ৬০ ..."
                         /> */}
-                        <SingleFeature headline="করোনা পরিস্থিতি" />
+                        <SingleFeature headline="আন্তর্জাতিক" />
                         <DoubleFeature headline="বাংলাদেশ" />
                         <div style={{paddingBottom:'20px'}}><Advertise ads={AdsHorizontal_M} /></div>
                         {/* <HomeSlider /> */}

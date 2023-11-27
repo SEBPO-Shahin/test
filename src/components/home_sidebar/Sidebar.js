@@ -1,5 +1,4 @@
 import React from 'react';
-import CoronaStatus from './corona/CoronaStatus';
 import ThumbnailList from './../home_category/Thumbnail';
 import SingleFeature from './../home_category/SingleFeature';
 // import DoubleFeature from './../home_category/DoubleFeature';
@@ -13,7 +12,6 @@ import { Tabs, Tab } from 'react-bootstrap';
 const Sidebar = () => {
     return(
         <div className="sidebar-coentent">
-            <CoronaStatus />
             <div className='page-sidebar'>
                         <div className='sidebar-coentent bulletins'>
                             <Tabs
@@ -31,7 +29,7 @@ const Sidebar = () => {
                             </Tabs>
                         </div>
                         <div className='sidebar-videos'>
-                            <iframe width="683" height="384" src="https://www.youtube.com/embed/EpLX09EwhcY" title="10 Creative Commercial Ad 2022।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="683" height="280" src="https://www.youtube.com/embed/EpLX09EwhcY" title="10 Creative Commercial Ad 2022।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         
                     </div>
