@@ -15,7 +15,7 @@ import ThumbnailList from '../home_category/Thumbnail';
 
 export default function Economics(){
     return(
-        <div className='page-wrapper'>
+        <div className='page-wrapper main-wrapper'>
             <Navbar />
             <div className='custom-row'>
                 <div className='breadcrumb'>

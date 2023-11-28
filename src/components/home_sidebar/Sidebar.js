@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState } from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import ThumbnailList from './../home_category/Thumbnail';
 import SingleFeature from './../home_category/SingleFeature';
 // import DoubleFeature from './../home_category/DoubleFeature';
 import Advertise from './../common/advertise/Advertise';
 import AdsImage from './../../assets/images/ads/48_HPK_T6768_HP-LJ400_01_160x400.gif';
-import AdsSmall from './../../assets/images/ads/43XX_BIAX_1HPGMIAA1_300x250_US_ENG_01.jpg';
+// import AdsSmall from './../../assets/images/ads/43XX_BIAX_1HPGMIAA1_300x250_US_ENG_01.jpg';
 import Latest from '../common/footer/bulletins/Latest';
 import Popular from '../common/footer/bulletins/Popular';
 import { Tabs, Tab } from 'react-bootstrap';

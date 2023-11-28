@@ -31,6 +31,12 @@ body{
     width: 100%;
 }
 
+a:-webkit-any-link {
+    color: $black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /*** Common Classes ***/
 
 .custom-row{

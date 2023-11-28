@@ -6,16 +6,16 @@ import sidebar_ads1 from '../../assets/images/ads/thumb.gif';
 import Navbar from '../common/header/navbar/Navbar';
 import Footer from '../common/footer/Footer';
 import Latest from '../common/footer/bulletins/Latest';
-import { Tabs, Tab } from 'react-bootstrap';
 import Popular from '../common/footer/bulletins/Popular';
 import DoubleFeature from '../home_category/DoubleFeature';
 import ThumbnailList from '../home_category/Thumbnail';
+import { Tabs, Tab } from 'react-bootstrap';
 
 
 
 export default function Bangladesh(){
     return(
-        <div className='page-wrapper'>
+        <div className='page-wrapper main-wrapper'>
             <Navbar />
             <div className='custom-row'>
                 <div className='breadcrumb'>

@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import logo from '../assets/images/ajker-arban-1.png';
-import Details from '../../src/components/pages/Details';;
+// import Details from '../../src/components/pages/Details';
 
 
 
@@ -24,7 +24,7 @@ export default function RootLayout(){
                     <header>
                         <nav>
                             <div className="logo">
-                                <NavLink to="/"><img src={logo} /></NavLink>
+                                <NavLink to="/"><img src={logo} alt="Ajker Arban Logo" /></NavLink>
                             </div>
                             <div className="menu-bar mobile-hide">
                                 <ul className="flex-container">
