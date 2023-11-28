@@ -10,7 +10,7 @@ class Navbar extends Component{
     }
 
     render(){
-        const { items } = this.state;
+        // const { items } = this.state;
         // Media breakpoints
         // const breakPoints = [
         //     {width: 1, itemsToShow : 1},
@@ -27,15 +27,15 @@ class Navbar extends Component{
                 <header className="header-section">
                     <nav className="header-content flex-container">
                         <div className="logo">
-                            <Link to="/"><img src={logo} /></Link>
+                            <Link to="/"><img src={logo} alt="Ajker Arban Logo" /></Link>
                         </div>
                         <div className="menu-bar mobile-hide">
                             {/* <ul className="flex-container" breakPoints = {breakPoints}>
                                 {items.map(item => <li key={item.id}><a href="">{item.menu}</a></li>)}
                             </ul> */}
                             <ul className="flex-container">
-                                <li><NavLink to="/login">Login</NavLink></li>
-                                <li><NavLink to="/details">Page Details Demo</NavLink></li>
+                                {/* <li><NavLink to="/login">Login</NavLink></li>
+                                <li><NavLink to="/details">Page Details Demo</NavLink></li> */}
                                 <li><NavLink to="/bangladesh">বাংলাদেশ</NavLink></li>
                                 <li><NavLink to="/politics">রাজনীতি</NavLink></li>
                                 <li><NavLink to="/economics">অর্থনীতি</NavLink></li>
@@ -51,8 +51,30 @@ class Navbar extends Component{
                                 <span></span>
                                 <span></span>
                                 <span></span>
+                                {
+                                    this.state.showNavigation ?
+                                    <ul className="flex-container">
+                                        <button onClick={()=>{this.setState({showNavigation:!this.state.showNavigation})}}>Close</button>
+                                        <li><Link to="/">প্রচ্ছদ</Link></li>
+                                        <li><Link to="/bangladesh">বাংলাদেশ</Link></li>
+                                        <li><Link to="/politics">রাজনীতি</Link></li>
+                                        <li><Link to="/">অর্থনীতি</Link></li>
+                                        <li><Link to="/">আন্তর্জাতিক</Link></li>
+                                        <li><Link to="/">খেলা</Link></li>
+                                        <li><Link to="/">বিনোদন</Link></li>
+                                        <li><Link to="/">স্বাস্থ্য</Link></li>
+                                        <li><Link to="/">সম্পাদকীয়</Link></li>
+                                        <li><Link to="/">আজকের এই দিনে</Link></li>
+                                        <li><Link to="/">আইন ও মানবাধিকার</Link></li>
+                                        <li><Link to="/">শিক্ষাঙ্গন</Link></li>
+                                        <li><Link to="/">আবহাওয়া</Link></li>
+                                        <li><Link to="/">জীবনযাপন</Link></li>
+                
+                                    </ul>
+                                    :null
+                                }
                             </div>
-                            {
+                            {/* {
                                 this.state.showNavigation ?
                                 <ul className="flex-container">
                                     <div className="hamburger showBurger" onClick={()=>{this.setState({showNavigation:!this.state.showNavigation})}}>
@@ -62,26 +84,8 @@ class Navbar extends Component{
                                     {items.map(item => <li key={item.id}><a href="">{item.menu}</a></li>)}
                                 </ul>
                                 :null
-                            }
-                            <ul className="flex-container mobile-hide">
-                                <li><NavLink to="/bangladesh">বাংলাদেশ</NavLink></li>
-                                <li><a href="#">রাজনীতি</a></li>
-                                <li><a href="">অর্থনীতি</a></li>
-                                <li><a href="#">আন্তর্জাতিক</a></li>
-                                <li><a href="#">খেলা</a></li>
-                                <li><a href="#">বিনোদন</a></li>
-                                <li><a href="#">স্বাস্থ্য</a></li>
-                                <li><a href="#">সম্পাদকীয়</a></li>
-                                <li><a href="">আজকের এই দিনে</a></li>
-                                <li><a href="">আইন ও মানবাধিকার</a></li>
-                                <li><a href="">শিক্ষাঙ্গন</a></li>
-                                <li><a href="">আবহাওয়া</a></li>
-                                <li><a href="">জীবনযাপন</a></li>
-                                <li><a href="">অর্থনীতি</a></li>
-                                <li><a href="">অর্থনীতি</a></li>
-                                <li><a href="">অর্থনীতি</a></li>
-                                <li><a href="">অর্থনীতি</a></li>
-                            </ul>
+                            } */}
+                            
                         </div>
                     </nav>
                 </header>

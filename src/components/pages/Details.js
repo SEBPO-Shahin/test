@@ -5,13 +5,11 @@ import stroller from '../../assets/images/ads/stroller2.gif';
 import sidebar_ads1 from '../../assets/images/ads/thumb.gif';
 import Navbar from '../common/header/navbar/Navbar';
 import Footer from '../common/footer/Footer';
-import Latest from '../common/footer/bulletins/Latest';
-import { Tabs, Tab } from 'react-bootstrap';
-import Popular from '../common/footer/bulletins/Popular';
+import FilterTab from '../home_sidebar/FilterTab';
 
 function Detials() {
     return (
-        <div className='page-wrapper'>
+        <div className='page-wrapper main-wrapper'>
             <Navbar />
             <div className='custom-row'>
             <div className='breadcrumb'>
@@ -59,21 +57,7 @@ function Detials() {
                         <div className="sidebar-ads">
                             <Link to=""><img src={sidebar_ads1} alt="Thums ads" /> </Link>
                         </div>
-                        <div className='sidebar-coentent bulletins'>
-                            <Tabs
-                                defaultActiveKey="latest"
-                                transition={false}
-                                id="noanim-tab-example"
-                                className="mb-3"
-                                >
-                                <Tab eventKey="latest" title="সর্বশেষ সংবাদ">
-                                    <Latest />
-                                </Tab>
-                                <Tab eventKey="profile" title="জনপ্রিয় সংবাদ">
-                                    <Popular />
-                                </Tab>
-                            </Tabs>
-                        </div>
+                        <FilterTab />
                         <div className='sidebar-videos'>
                             <iframe width="683" height="384" src="https://www.youtube.com/embed/EpLX09EwhcY" title="10 Creative Commercial Ad 2022।" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
