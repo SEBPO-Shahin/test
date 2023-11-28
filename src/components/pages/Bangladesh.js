@@ -8,6 +8,7 @@ import Footer from '../common/footer/Footer';
 import DoubleFeature from '../home_category/DoubleFeature';
 import ThumbnailList from '../home_category/Thumbnail';
 import FilterTab from '../home_sidebar/FilterTab';
+import { GoChevronRight } from "react-icons/go";
 
 
 
@@ -18,7 +19,7 @@ export default function Bangladesh(){
             <div className='custom-row'>
                 <div className='breadcrumb'>
                     <ul>
-                        <li><Link to="/">প্রচ্ছদ <span></span></Link></li>
+                        <li><Link to="/">প্রচ্ছদ <span><GoChevronRight /></span></Link></li>
                         <li><Link to="/bangladesh">বাংলাদেশ</Link></li>
                     </ul>
                 </div>

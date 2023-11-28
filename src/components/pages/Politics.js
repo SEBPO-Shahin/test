@@ -8,6 +8,7 @@ import Footer from '../common/footer/Footer';
 import DoubleFeature from '../home_category/DoubleFeature';
 import ThumbnailList from '../home_category/Thumbnail';
 import FilterTab from '../home_sidebar/FilterTab';
+import { GoChevronRight } from "react-icons/go";
 
 
 
@@ -18,8 +19,8 @@ export default function Politics(){
             <div className='custom-row'>
                 <div className='breadcrumb'>
                     <ul>
-                        <li><Link to="/">প্রচ্ছদ&#129170;</Link></li>
-                        <li><Link to="/bangladesh">রাজনীতি&#129170;</Link></li>
+                        <li><Link to="/">প্রচ্ছদ <span><GoChevronRight /></span></Link></li>
+                        <li><Link to="/bangladesh">রাজনীতি</Link></li>
                     </ul>
                 </div>
                 <div className='page-details page-list'>
