@@ -6,6 +6,8 @@ import sidebar_ads1 from '../../assets/images/ads/thumb.gif';
 import Navbar from '../common/header/navbar/Navbar';
 import Footer from '../common/footer/Footer';
 import FilterTab from '../home_sidebar/FilterTab';
+import SlickCarousel from '../common/carousel/Carousel';
+import { GoChevronRight } from "react-icons/go";
 
 function Detials() {
     return (
@@ -14,8 +16,8 @@ function Detials() {
             <div className='custom-row'>
             <div className='breadcrumb'>
                     <ul>
-                        <li><Link to="/">প্রচ্ছদ&#129170;</Link></li>
-                        <li><Link to="/#">আইন ও মানবাধিকার &#129170;</Link></li>
+                        <li><Link to="/">প্রচ্ছদ <span><GoChevronRight /></span></Link></li>
+                        <li><Link to="/#">আইন ও মানবাধিকার <span><GoChevronRight /></span></Link></li>
                         <li><Link to="/#">শীর্ষ সংবাদ</Link></li>
                     </ul>
                 </div>
@@ -48,6 +50,7 @@ function Detials() {
 
 ফিফার নতুন র‍্যাঙ্কিং এখনো প্রকাশিত হয়নি, তবে সেখানে আর্জেন্টিনার অবস্থান কী হতে পারে, সেটি জানিয়ে দিয়েছে আর্জেন্টাইন সংবাদমাধ্যম টিওয়াইসি স্পোর্টস। তাদের হিসাবে, এর পরের র‍্যাঙ্কিংয়ে কিলিয়ান এমবাপ্পে, করিম বেনজেমার ফ্রান্সকে টপকে সেরা তিনে উঠে আসবে লিওনেল স্কালোনির দল। তবে ব্রাজিল ভক্তদের এখনই আর্জেন্টিনাকে নিয়ে শঙ্কার কিছু নেই, ব্রাজিল শীর্ষেই থাকছে। 
                         </div>
+                        <SlickCarousel />
                         {/* Ads section */}
                         <div className='details-ads'>
                             <img src={stroller} alt="Stroller ads" />

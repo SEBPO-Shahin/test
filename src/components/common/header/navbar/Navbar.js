@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../../../assets/images/ajker-arban-1.png';
+import { FaTimes } from "react-icons/fa";
 
 
 class Navbar extends Component{
@@ -54,7 +55,8 @@ class Navbar extends Component{
                                 {
                                     this.state.showNavigation ?
                                     <ul className="flex-container">
-                                        <button onClick={()=>{this.setState({showNavigation:!this.state.showNavigation})}}>Close</button>
+                                        {/* <button onClick={()=>{this.setState({showNavigation:!this.state.showNavigation})}}>Close</button> */}
+                                        <FaTimes onClick={()=>{this.setState({showNavigation:!this.state.showNavigation})}} />
                                         <li><Link to="/">প্রচ্ছদ</Link></li>
                                         <li><Link to="/bangladesh">বাংলাদেশ</Link></li>
                                         <li><Link to="/politics">রাজনীতি</Link></li>
