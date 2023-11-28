@@ -6,8 +6,6 @@ import {
   createBrowserRouter,
 } from 'react-router-dom';
 import Homepage from './components/pages/Homepage'
-import Navbar from './components/header/Navbar';
-import RootLayout from './layouts/RootLayout';
 import HelpLayout from './layouts/HelpLayout';
 import Faq from './pages/help/Faq';
 import Contact from './pages/help/Contact';
@@ -16,6 +14,9 @@ import Bangladesh from './components/pages/Bangladesh';
 import Login from './components/pages/Login';
 import Politics from './components/pages/Politics';
 import Economics from './components/pages/Economics';
+import International from './components/pages/International';
+import Sports from './components/pages/Sports';
+import Entertainment from './components/pages/Entertainment';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,7 +26,9 @@ const router = createBrowserRouter(
       <Route path='bangladesh' element={<Bangladesh />} />
       <Route path='politics' element={<Politics />} />
       <Route path='economics' element={<Economics />} />
-      {/* <Route path='international' element={<Politics />} /> */}
+      <Route path='international' element={<International />} />
+      <Route path='sports' element={<Sports />} />
+      <Route path='entertainment' element={<Entertainment />} />
       <Route path='login' element={<Login />} />
       <Route path="help" element={<HelpLayout />}>
         <Route path="faq" element={<Faq />}/>

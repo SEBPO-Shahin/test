@@ -40,11 +40,18 @@ class Navbar extends Component{
                                 <li><NavLink to="/bangladesh">বাংলাদেশ</NavLink></li>
                                 <li><NavLink to="/politics">রাজনীতি</NavLink></li>
                                 <li><NavLink to="/economics">অর্থনীতি</NavLink></li>
-                                <li><NavLink to="/internation">আন্তর্জাতিক</NavLink></li>
+                                <li><NavLink to="/international">আন্তর্জাতিক</NavLink></li>
                                 <li><NavLink to="/sports">খেলা</NavLink></li>
                                 <li><NavLink to="/entertainment">বিনোদন</NavLink></li>
                                 <li><NavLink to="/health">স্বাস্থ্য</NavLink></li>
                                 <li><NavLink to="/list">সম্পাদকীয়</NavLink></li>
+                                <li><Link to="/entertainments">বিনোদন</Link></li>
+                                <li><Link to="/health">স্বাস্থ্য</Link></li>
+                                <li><Link to="/todayEvents">আজকের এই দিনে</Link></li>
+                                <li><Link to="/law-huminity">আইন ও মানবাধিকার</Link></li>
+                                <li><Link to="/educations">শিক্ষাঙ্গন</Link></li>
+                                <li><Link to="/weather">আবহাওয়া</Link></li>
+                                <li><Link to="/lifestyle">জীবনযাপন</Link></li>
                             </ul>
                         </div>
                         <div className="menu-bar desktop-hide">
@@ -60,17 +67,17 @@ class Navbar extends Component{
                                         <li><Link to="/">প্রচ্ছদ</Link></li>
                                         <li><Link to="/bangladesh">বাংলাদেশ</Link></li>
                                         <li><Link to="/politics">রাজনীতি</Link></li>
-                                        <li><Link to="/">অর্থনীতি</Link></li>
-                                        <li><Link to="/">আন্তর্জাতিক</Link></li>
-                                        <li><Link to="/">খেলা</Link></li>
-                                        <li><Link to="/">বিনোদন</Link></li>
-                                        <li><Link to="/">স্বাস্থ্য</Link></li>
-                                        <li><Link to="/">সম্পাদকীয়</Link></li>
-                                        <li><Link to="/">আজকের এই দিনে</Link></li>
-                                        <li><Link to="/">আইন ও মানবাধিকার</Link></li>
-                                        <li><Link to="/">শিক্ষাঙ্গন</Link></li>
-                                        <li><Link to="/">আবহাওয়া</Link></li>
-                                        <li><Link to="/">জীবনযাপন</Link></li>
+                                        <li><Link to="/economics">অর্থনীতি</Link></li>
+                                        <li><Link to="/international">আন্তর্জাতিক</Link></li>
+                                        <li><Link to="/sports">খেলা</Link></li>
+                                        <li><Link to="/writers">সম্পাদকীয়</Link></li>
+                                        <li><Link to="/entertainments">বিনোদন</Link></li>
+                                        <li><Link to="/health">স্বাস্থ্য</Link></li>
+                                        <li><Link to="/todayEvents">আজকের এই দিনে</Link></li>
+                                        <li><Link to="/law-huminity">আইন ও মানবাধিকার</Link></li>
+                                        <li><Link to="/educations">শিক্ষাঙ্গন</Link></li>
+                                        <li><Link to="/weather">আবহাওয়া</Link></li>
+                                        <li><Link to="/lifestyle">জীবনযাপন</Link></li>
                 
                                     </ul>
                                     :null
